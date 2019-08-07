@@ -1,0 +1,24 @@
+.main{
+    height: 100%;
+}
+
+.project-info{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.project-info > h3{
+    font-weight: 300;
+}
+
+.project-info > ul{
+    display: inline-block;
+    margin-right: 40px;
+    vertical-align: top;
+}
+
+.project-info a {
+    color: black;
+    font-weight: bold;
+}

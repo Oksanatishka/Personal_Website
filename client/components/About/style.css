@@ -1,0 +1,35 @@
+
+.main {
+  text-align: left;
+}
+
+.greetings {
+	font-size: 3.2rem;
+	line-height: 1;
+	display: block;
+}
+
+.main h1 {
+	font-size: 1.618rem
+}
+
+.main > section{
+	padding-bottom: 5%
+}
+
+.main section ul {
+	display: inline-block;
+	margin-right: 40px;
+	vertical-align: top;
+}
+
+.profilepic{
+	float: right;
+    margin-left: 2%;
+    width: 25%;
+    border-radius: 17%;
+}
+
+.tweentxt{
+
+}

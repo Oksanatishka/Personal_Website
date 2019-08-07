@@ -1,0 +1,32 @@
+.main{
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+}
+
+.main svg{
+    position: absolute;
+    top: 0;
+    z-index: 11111;
+    left: 0;
+}
+
+.main svg:nth-child(2) {
+    z-index: 10;
+}
+
+.text{
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 39.5%;
+    position: absolute;
+}

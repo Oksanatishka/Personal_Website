@@ -1,0 +1,60 @@
+
+.main {
+  height: 100%
+}
+
+.bg{
+    height: 100%;
+    background-size: cover !important;
+    background-position: 50% 0% !important;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.14);
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 66%,rgba(0,0,0,0.82));
+    transform: translate3d(0px,0px,0px);
+    height: 100%;
+}
+
+.wrapper{
+    padding: 40px 40px 0px 40px;
+    height: 100%;
+}
+
+.content{
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+.content-bottom{
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.content-bottom > a{
+    display: block;
+}
+
+.title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 0.12rem;
+    margin: 0 0 10px 0;
+}
+
+.subtitle{
+    color: white;
+    margin: 0;
+    font-size: 1.378rem;
+}
+
+.back{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1111;
+}

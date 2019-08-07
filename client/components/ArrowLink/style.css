@@ -1,0 +1,38 @@
+.btn{
+  position: relative;
+  cursor: pointer;
+  padding-right: 35px;
+  display: inline-block;
+  color: white;
+}
+
+.circle{
+  right: 0;
+  top: 50%;
+  margin-top: -13px;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 25px;
+  height: 25px;
+}
+
+.line{
+  position: absolute;
+  width: 24px;
+  height: 1px;
+  background-color: white;
+  top: 11px;
+  left: -4px;
+  opacity: 0;
+}
+
+.arrow{
+  width: 5px;
+  height: 7px;
+  margin: -3.5px -2px;
+  top: 50%;
+  left: 50%;
+  fill: #fff;
+  position: absolute;
+}

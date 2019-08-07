@@ -1,0 +1,72 @@
+.main{
+	position: relative;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 0;
+    height:700px;
+}
+
+.slide{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%); 
+	transition: transform 400ms ease-in-out;
+}
+
+.slide img{
+	max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+    width: auto;
+}
+
+.slide .prev{
+	width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.slide .next{
+	width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.arrow{
+	width: 24px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    cursor: pointer;
+    background: no-repeat center center/cover;
+    color: black;
+}
+
+.arrow-right{
+	right: -40px;
+}
+
+.arrow-left{
+	left: -80px;
+}
+
+.arrowSvgLeft, .arrowSvgRight{
+	width: 70px;
+}
+.arrowSvgLeft{
+	transform: rotateY(180deg);
+}

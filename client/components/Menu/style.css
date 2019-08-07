@@ -1,0 +1,61 @@
+.main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 170px;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: url('http://www.schipholdestinationunknown.nl/static/img/backgrounds/bg-application.jpg'); */
+    /* background-size: cover; */
+    background-color: cadetblue;
+}
+
+.menu-items {
+    text-align: center;
+}
+
+.menu-item {
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    padding: 40px 0;
+    cursor: pointer;
+}
+
+.menu-item svg {
+    width: 60px;
+    fill: white;
+}
+
+.menu-item:hover {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.social-icons {
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+
+.social-icon {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.menu-item:visited,
+.social-icon:visited {
+    color: white;
+}

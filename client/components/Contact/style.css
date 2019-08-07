@@ -1,0 +1,65 @@
+
+.heading {
+
+}
+
+.tweentxt{
+
+}
+
+form input, form textarea {
+	width: 100%;
+	border: 0;
+	border-bottom: 2px solid #757575;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	outline: 0;
+	background: transparent;
+	color: #757575;
+    transition: all 300ms;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: black;
+    color: black;
+}
+
+form .submit p {
+	color: black;
+}
+
+form .submit svg {
+	fill: black;
+}
+
+form .submit span {
+	border-color: black;
+}
+
+form .submit span div {
+	background-color: black;
+}
+
+form .error {
+	color: red;
+}
+
+.social-icons {
+  margin-bottom: 30px;
+  border-top: 1px solid white;
+}
+
+.social-icon {
+  display: inline-block;
+  padding: 5px;
+  font-size: 30px;
+  color: black;
+  margin-right: 20px
+}
+
+.social-icon:visited{
+  color: black;
+}
